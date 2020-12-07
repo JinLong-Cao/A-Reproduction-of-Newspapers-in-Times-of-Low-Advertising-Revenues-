@@ -1,0 +1,19 @@
+---
+title: "A Reproduction of 'Newspapers in Times of Low Advertising Revenues'"
+author: "Jin Long Cao"
+date: "12/11/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(haven)
+```
+
+```{r data, echo=FALSE}
+
+
+
+```
+
