@@ -12,8 +12,35 @@ library(haven)
 ```
 
 ```{r data, echo=FALSE}
-
-
-
+a <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_dataset.dta")
+b <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_advertisement.dta")
+c <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_advertising_industry.dta")
+d <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_television_quality.dta")
+e <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_US.dta")
 ```
+
+## Keywords
+
+## Abstract
+
+## Introduction
+In this paper we attempt to reproduce 'Newspapers in Times of Low Advertising Revenues' by Charles Angelucci and Julia Cage. We find…
+
+
+## Data
+
+## Model
+
+## Discussion
+
+# Limitation and Weaknesses
+
+# Future Work
+
+## Appendix
+
+## Reference
+
+- Angelucci, Charles, and Cagé, Julia. Replication data for: Newspapers in Times of Low Advertising Revenues. Nashville, TN: American Economic Association [publisher], 2019. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2019-12-07. https://doi.org/10.3886/E116438V1
+
 
