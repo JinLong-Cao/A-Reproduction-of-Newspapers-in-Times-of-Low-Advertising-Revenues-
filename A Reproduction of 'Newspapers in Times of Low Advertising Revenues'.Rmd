@@ -38,6 +38,8 @@ In this paper we attempt to reproduce 'Newspapers in Times of Low Advertising Re
 # Future Work
 
 ## Appendix
+The code, scripts, and RMarkdown file in this report’s analysis can also be found at the following link:
+https://github.com/JinLong-Cao/A-Reproduction-of-Newspapers-in-Times-of-Low-Advertising-Revenues-
 
 ## Reference
 
