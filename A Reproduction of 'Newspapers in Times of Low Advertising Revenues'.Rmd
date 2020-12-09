@@ -1,7 +1,7 @@
 ---
 title: "A Reproduction of 'Newspapers in Times of Low Advertising Revenues'"
 author: "Jin Long Cao"
-date: "12/11/2020"
+date: "09/12/2020"
 output: pdf_document
 ---
 
@@ -11,7 +11,7 @@ library(tidyverse)
 library(haven)
 ```
 
-```{r data, echo=FALSE}
+```{r obtaining dataset, echo=FALSE}
 a <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_dataset.dta")
 b <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_advertisement.dta")
 c <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_advertising_industry.dta")
@@ -20,11 +20,15 @@ e <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_US.dta")
 ```
 
 ## Keywords
+NEWSPAPERS, ADVERTISING, REVENUES, TELEVISION, JOURNALISTS, INTERNET
 
 ## Abstract
+Due to the rise of the internet, there has been a reduction in advertising revenues for newspapers. In this paper we attempt to reproduce 'Newspapers in Times of Low Advertising Revenues' by Charles Angelucci and Julia Cage. We find… TBD (We would like to see if we come to the same conclusion as Charles and Julia). 
 
 ## Introduction
-In this paper we attempt to reproduce 'Newspapers in Times of Low Advertising Revenues' by Charles Angelucci and Julia Cage. We find…
+Due to the convenience of the internet, the majority of the advertising market has moved from newspapers to the internet. This lead to newspaper companies advertising revenues and the incentive to produce journalistic-intensive content to dramatically decrease. In this paper, we would like to analyzing the relationship between advertising revenues and newspapers’ choices regarding the size of their newsroom, the quantity of news to produce, and their pricing strategies.
+
+We do this by using novel annual data and the introduction of advertising on television, obtain from openICPSR. We concluded ... TBD compared to Charles and Julia's original paper, they concluded that “a decrease in advertising revenues of national newspapers compared to local newspapers” and “a sharp decrease in the number of journalists employed, but no change in the quantity of news”.
 
 
 ## Data
@@ -42,7 +46,6 @@ The code, scripts, and RMarkdown file in this report’s analysis can also be fo
 https://github.com/JinLong-Cao/A-Reproduction-of-Newspapers-in-Times-of-Low-Advertising-Revenues-
 
 ## Reference
-
 - Angelucci, Charles, and Cagé, Julia. Replication data for: Newspapers in Times of Low Advertising Revenues. Nashville, TN: American Economic Association [publisher], 2019. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2019-12-07. https://doi.org/10.3886/E116438V1
 
 
