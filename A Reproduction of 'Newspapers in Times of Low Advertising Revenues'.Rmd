@@ -37,8 +37,9 @@ We do this by using novel annual data and the introduction of advertising on tel
 
 ## Model
 ```{r, echo=FALSE}
-c$year
-ggplot(c, aes(x=year))+ geom_bar()
+c %>% 
+  ggplot(aes(x=year)) + 
+  geom_bar()
 ```
 
 
