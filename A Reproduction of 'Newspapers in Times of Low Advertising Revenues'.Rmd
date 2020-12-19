@@ -2,13 +2,20 @@
 title: "A Reproduction of 'Newspapers in Times of Low Advertising Revenues'"
 author: "Jin Long Cao"
 date: "09/12/2020"
+abstract: |
+  | Due to the rise of the internet, there has been a reduction in advertising revenues for newspapers. In this paper we attempt to reproduce 'Newspapers in Times of Low Advertising Revenues' by Charles Angelucci and Julia Cage. We find… TBD (We would like to see if we come to the same conclusion as Charles and Julia).
+  |
+  | **Keywords:** NEWSPAPERS, ADVERTISING, REVENUES, TELEVISION, JOURNALISTS, INTERNET
+
 output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#install.packages("ggplot2")
 library(tidyverse)
 library(haven)
+library(ggplot2)
 ```
 
 ```{r obtaining dataset, echo=FALSE}
@@ -19,11 +26,6 @@ d <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_television
 e <- read_dta("116438-V1/Angelucci_Cage_AEJMicro_Descriptive_evidence_US.dta")
 ```
 
-## Keywords
-NEWSPAPERS, ADVERTISING, REVENUES, TELEVISION, JOURNALISTS, INTERNET
-
-## Abstract
-Due to the rise of the internet, there has been a reduction in advertising revenues for newspapers. In this paper we attempt to reproduce 'Newspapers in Times of Low Advertising Revenues' by Charles Angelucci and Julia Cage. We find… TBD (We would like to see if we come to the same conclusion as Charles and Julia). 
 
 ## Introduction
 Due to the convenience of the internet, the majority of the advertising market has moved from newspapers to the internet. This lead to newspaper companies advertising revenues and the incentive to produce journalistic-intensive content to dramatically decrease. In this paper, we would like to analyzing the relationship between advertising revenues and newspapers’ choices regarding the size of their newsroom, the quantity of news to produce, and their pricing strategies.
@@ -34,6 +36,13 @@ We do this by using novel annual data and the introduction of advertising on tel
 ## Data
 
 ## Model
+```{r, echo=FALSE}
+c$year
+ggplot(c, aes(x=year))+ geom_bar()
+```
+
+
+
 
 ## Discussion
 
